@@ -1,0 +1,3 @@
+CMake Error: The source directory "/home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:994: cmake_check_build_system] Fehler 1

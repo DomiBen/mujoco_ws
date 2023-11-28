@@ -1,0 +1,1 @@
+/home/dominik/mujoco_ws/devel/.private/mujoco_ros_sensors/lib/pkgconfig/mujoco_ros_sensors.pc

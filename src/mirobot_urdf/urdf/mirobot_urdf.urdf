@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="mirobot_urdf">
+    <link name="base">
+    </link>
+    
+ <joint
+    name="Joint0"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base" />
+    <child
+      link="base_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.061385 0.061385 0.0295630938396228"
+        rpy="0 0 0" />
+      <mass
+        value="0.830460463625083" />
+      <inertia
+        ixx="0.00122515441017336"
+        ixy="0"
+        ixz="-1.07075004170745E-20"
+        iyy="0.00122515441017336"
+        iyz="-1.86115637824431E-21"
+        izz="0.00181346064064253" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.47843137254902 0.47843137254902 0.47843137254902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/base_link_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="0.0139209179230739 0.000135347333563695 0.116890477684886"
+        rpy="0 0 0" />
+      <mass
+        value="0.100783545369886" />
+      <inertia
+        ixx="3.54945933987388E-05"
+        ixy="-1.59790247685802E-07"
+        ixz="-1.29971492752731E-05"
+        iyy="6.20685523797208E-05"
+        iyz="-1.43996183232638E-07"
+        izz="4.09412060663346E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link1_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint1"
+    type="revolute">
+    <origin
+      xyz="0.061385 0.061385 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.919"
+      upper="2.792"
+      effort="10"
+      velocity="1.484" />
+  </joint>
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="-0.000147878475866781 -0.0166549156615209 0.0497584387603063"
+        rpy="0 0 0" />
+      <mass
+        value="0.132170739529097" />
+      <inertia
+        ixx="0.000214471819496636"
+        ixy="3.32555873993565E-08"
+        ixz="-7.64502355926739E-08"
+        iyy="0.000225756521403956"
+        iyz="4.16209897348014E-08"
+        izz="2.33029409596739E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.6 0.247058823529412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link2_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint2"
+    type="revolute">
+    <origin
+      xyz="0.0266597863706394 -0.0100772758647647 0.126989066089698"
+      rpy="0 0 0" />
+    <parent
+      link="link1" />
+    <child
+      link="link2" />
+    <axis
+      xyz="0.00289700660354817 0.999995803667565 0" />
+    <limit
+      lower="-0.611"
+      upper="1.222"
+      effort="10"
+      velocity="1.047" />
+  </joint>
+  <link
+    name="link3">
+    <inertial>
+      <origin
+        xyz="0.0159809914337896 0.0217695355264011 0.00460563926486027"
+        rpy="0 0 0" />
+      <mass
+        value="0.0999858744800837" />
+      <inertia
+        ixx="3.4811574668917E-05"
+        ixy="1.0738303377464E-06"
+        ixz="-2.34065716979112E-05"
+        iyy="0.000119380129851761"
+        iyz="3.07624357926441E-07"
+        izz="0.00012294396046152" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link3_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint3"
+    type="revolute">
+    <origin
+      xyz="-0.000133826217796174 0 0.103558209741748"
+      rpy="0 0 0" />
+    <parent
+      link="link2" />
+    <child
+      link="link3" />
+    <axis
+      xyz="0.00289700660354829 0.999995803667565 0" />
+    <limit
+      lower="-2.094"
+      upper="1.047"
+      effort="10"
+      velocity="1.134" />
+  </joint>
+  <link
+    name="link4">
+    <inertial>
+      <origin
+        xyz="0.0397442057102978 -0.000115495931004534 -0.000190508385820382"
+        rpy="0 0 0" />
+      <mass
+        value="0.0455776798680111" />
+      <inertia
+        ixx="1.02365798435092E-05"
+        ixy="2.04370548510394E-08"
+        ixz="6.4121226938474E-08"
+        iyy="1.74414629256408E-05"
+        iyz="-2.60813366146766E-08"
+        izz="2.34674761705211E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.6 0.247058823529412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link4_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint4"
+    type="revolute">
+    <origin
+      xyz="0.11139 0.020972 0.019459"
+      rpy="0 0 0" />
+    <parent
+      link="link3" />
+    <child
+      link="link4" />
+    <axis
+      xyz="-0.99998 0.002897 0.0048147" />
+    <limit
+      lower="-3.142"
+      upper="3.142"
+      effort="10"
+      velocity="3.49" />
+  </joint>
+  <link
+    name="link5">
+    <inertial>
+      <origin
+        xyz="-1.78880873539927E-05 0.00626250660507537 0.00757975878366923"
+        rpy="0 0 0" />
+      <mass
+        value="0.0143827723820746" />
+      <inertia
+        ixx="1.94302339224863E-06"
+        ixy="3.28483508594349E-10"
+        ixz="-5.24874139642267E-11"
+        iyy="1.83051408509022E-06"
+        iyz="3.18191077412878E-09"
+        izz="1.09305360903301E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link5_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint5"
+    type="revolute">
+    <origin
+      xyz="0.057767 0.0061276 -0.00025103"
+      rpy="3.1416 0 0" />
+    <parent
+      link="link4" />
+    <child
+      link="link5" />
+    <axis
+      xyz="0.0029176 -0.99999 -0.0042913" />
+    <limit
+      lower="-3.49"
+      upper="0.523"
+      effort="10"
+      velocity="3490" />
+  </joint>
+  <link
+    name="link6">
+    <inertial>
+      <origin
+        xyz="0.020487 -0.017507 -0.00012792"
+        rpy="0 0 0" />
+      <mass
+        value="0.038132" />
+      <inertia
+        ixx="3.5467E-06"
+        ixy="1.8313E-06"
+        ixz="6.6732E-08"
+        iyy="2.5969E-05"
+        iyz="-5.8259E-09"
+        izz="2.6239E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link6_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint6"
+    type="revolute">
+    <origin
+      xyz="-1.7143E-05 0.0062119 0.019331"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link5" />
+    <child
+      link="link6" />
+    <axis
+      xyz="-6.327E-05 0.99999 0.0042638" />
+    <limit
+      lower="-6.283"
+      upper="6.283"
+      effort="10"
+      velocity="7.854" />
+  </joint>
+  <link
+    name="link61">
+    <inertial>
+      <origin
+        xyz="0.060943 -0.020995 -0.00024766"
+        rpy="0 0 0" />
+      <mass
+        value="0.11219" />
+      <inertia
+        ixx="1.5538E-05"
+        ixy="3.6946E-10"
+        ixz="-1.2896E-08"
+        iyy="1.0568E-05"
+        iyz="-9.5858E-13"
+        izz="1.0568E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link61.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mirobot_urdf/meshes/link61.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint61"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="link6" />
+    <child
+      link="link61" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

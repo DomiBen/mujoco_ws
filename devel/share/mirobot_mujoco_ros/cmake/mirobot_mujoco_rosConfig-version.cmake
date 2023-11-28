@@ -1,0 +1,1 @@
+/home/dominik/mujoco_ws/devel/.private/mirobot_mujoco_ros/share/mirobot_mujoco_ros/cmake/mirobot_mujoco_rosConfig-version.cmake

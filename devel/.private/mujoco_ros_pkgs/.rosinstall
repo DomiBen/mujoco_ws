@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dominik/mujoco_ws/devel/.private/mujoco_ros_pkgs/setup.sh

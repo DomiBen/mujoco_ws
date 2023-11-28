@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIE   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_node.dir/main.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/main.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/main.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/.mujoco/mujoco-2.3.6/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/platform_ui_adapter.dir/glfw_adapter.cc.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/glfw_adapter.cc",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/glfw_adapter.cc"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/.mujoco/mujoco-2.3.6/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/platform_ui_adapter.dir/glfw_dispatch.cc.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/glfw_dispatch.cc",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/glfw_dispatch.cc"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/.mujoco/mujoco-2.3.6/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/platform_ui_adapter.cc",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/platform_ui_adapter.cc"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -Dmujoco_ros_EXPORTS -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_ros.dir/mujoco_env.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/mujoco_env.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/mujoco_env.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -Dmujoco_ros_EXPORTS -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_ros.dir/viewer.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/viewer.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/viewer.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -Dmujoco_ros_EXPORTS -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_ros.dir/plugin_utils.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/plugin_utils.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/plugin_utils.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -Dmujoco_ros_EXPORTS -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_ros.dir/offscreen_camera.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/offscreen_camera.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/offscreen_camera.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -Dmujoco_ros_EXPORTS -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_ros.dir/offscreen_rendering.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/offscreen_rendering.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/offscreen_rendering.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -Dmujoco_ros_EXPORTS -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_ros.dir/callbacks.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/callbacks.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/callbacks.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/src",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -I/home/dominik/mujoco_ws/src/mujoco_ros/include  -O3 -DNDEBUG -fPIC   -mavx -std=c++17 -o CMakeFiles/lodepng.dir/lodepng.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/src/lodepng.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/src/lodepng.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIE   -DGTEST_HAS_PTHREAD=1 -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_env_test.dir/mujoco_env_test.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/test/mujoco_env_test.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/test/mujoco_env_test.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIE   -DGTEST_HAS_PTHREAD=1 -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_ros_plugin_test.dir/mujoco_ros_plugin_test.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/test/mujoco_ros_plugin_test.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/test/mujoco_ros_plugin_test.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIE   -DGTEST_HAS_PTHREAD=1 -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/ros_interface_test.dir/ros_interface_test.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/test/ros_interface_test.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/test/ros_interface_test.cpp"
+},
+{
+  "directory": "/home/dominik/mujoco_ws/build/mujoco_ros/test/test_plugin",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mujoco_ros\\\" -Dmujoco_testplugin_EXPORTS -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include  -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wformat=2 -Wno-missing-field-initializers -Wno-int-in-bool-context -Wno-sign-compare -Wno-unknown-pragmas -Werror -Wmisleading-indentation -Wnull-dereference -Wimplicit-fallthrough -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=c++17 -o CMakeFiles/mujoco_testplugin.dir/test_plugin.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros/test/test_plugin/test_plugin.cpp",
+  "file": "/home/dominik/mujoco_ws/src/mujoco_ros/test/test_plugin/test_plugin.cpp"
+}
+]

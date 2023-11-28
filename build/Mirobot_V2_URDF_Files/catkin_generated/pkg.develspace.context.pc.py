@@ -1,0 +1,8 @@
+# generated from catkin/cmake/template/pkg.context.pc.in
+CATKIN_PACKAGE_PREFIX = ""
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
+PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
+PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
+PROJECT_NAME = "Mirobot_V2_URDF_Files"
+PROJECT_SPACE_DIR = "/home/dominik/mujoco_ws/devel/.private/Mirobot_V2_URDF_Files"
+PROJECT_VERSION = "1.0.0"

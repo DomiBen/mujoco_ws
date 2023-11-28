@@ -1,0 +1,8 @@
+prefix=/home/dominik/mujoco_ws/install
+
+Name: mujoco_ros_mocap_control_plugin
+Description: Description of mujoco_ros_mocap_control_plugin
+Version: 2.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmujoco_ros_mocap_control_plugin
+Requires: roscpp mujoco_ros

@@ -1,0 +1,1 @@
+/home/dominik/mujoco_ws/devel/.private/mujoco_ros_sensors/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig-version.cmake

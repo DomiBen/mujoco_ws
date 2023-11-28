@@ -1,0 +1,1 @@
+/home/dominik/mujoco_ws/devel/.private/mirobot_urdf/lib/pkgconfig/mirobot_urdf.pc

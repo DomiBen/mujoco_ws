@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dominik/mujoco_ws/src/mujoco_ros/include/mujoco_ros/lodepng.h
+string.h
+-
+vector
+-
+string
+-
+lodepng.h
+/home/dominik/mujoco_ws/src/mujoco_ros/include/mujoco_ros/lodepng.h
+iostream
+-
+lodepng.h
+/home/dominik/mujoco_ws/src/mujoco_ros/include/mujoco_ros/lodepng.h
+
+/home/dominik/mujoco_ws/src/mujoco_ros/src/lodepng.cpp
+mujoco_ros/lodepng.h
+-
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+

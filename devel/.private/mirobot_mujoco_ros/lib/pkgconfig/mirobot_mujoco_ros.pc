@@ -1,0 +1,8 @@
+prefix=/home/dominik/mujoco_ws/devel/.private/mirobot_mujoco_ros
+
+Name: mirobot_mujoco_ros
+Description: Description of mirobot_mujoco_ros
+Version: 2.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: xacro mirobot_urdf mujoco_ros mujoco_ros_sensors mujoco_ros_control mujoco_ros_mocap_control_plugin
