@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/dominik/mujoco_ws/build/catkin_tools_prebuild
-# Build directory: /home/dominik/mujoco_ws/build/catkin_tools_prebuild
+# Source directory: /home/domi/mujoco_ws/build/catkin_tools_prebuild
+# Build directory: /home/domi/mujoco_ws/build/catkin_tools_prebuild
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

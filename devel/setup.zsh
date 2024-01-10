@@ -1,1 +1,1 @@
-/home/dominik/mujoco_ws/devel/.private/catkin_tools_prebuild/setup.zsh
+/home/domi/mujoco_ws/devel/.private/catkin_tools_prebuild/setup.zsh

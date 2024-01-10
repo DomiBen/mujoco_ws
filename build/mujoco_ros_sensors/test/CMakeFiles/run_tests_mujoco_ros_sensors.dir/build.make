@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dominik/mujoco_ws/src/mujoco_ros_sensors
+CMAKE_SOURCE_DIR = /home/domi/mujoco_ws/src/mujoco_ros_sensors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dominik/mujoco_ws/build/mujoco_ros_sensors
+CMAKE_BINARY_DIR = /home/domi/mujoco_ws/build/mujoco_ros_sensors
 
 # Utility rule file for run_tests_mujoco_ros_sensors.
 
@@ -63,10 +63,10 @@ test/CMakeFiles/run_tests_mujoco_ros_sensors.dir/build: run_tests_mujoco_ros_sen
 .PHONY : test/CMakeFiles/run_tests_mujoco_ros_sensors.dir/build
 
 test/CMakeFiles/run_tests_mujoco_ros_sensors.dir/clean:
-	cd /home/dominik/mujoco_ws/build/mujoco_ros_sensors/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_mujoco_ros_sensors.dir/cmake_clean.cmake
+	cd /home/domi/mujoco_ws/build/mujoco_ros_sensors/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_mujoco_ros_sensors.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests_mujoco_ros_sensors.dir/clean
 
 test/CMakeFiles/run_tests_mujoco_ros_sensors.dir/depend:
-	cd /home/dominik/mujoco_ws/build/mujoco_ros_sensors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dominik/mujoco_ws/src/mujoco_ros_sensors /home/dominik/mujoco_ws/src/mujoco_ros_sensors/test /home/dominik/mujoco_ws/build/mujoco_ros_sensors /home/dominik/mujoco_ws/build/mujoco_ros_sensors/test /home/dominik/mujoco_ws/build/mujoco_ros_sensors/test/CMakeFiles/run_tests_mujoco_ros_sensors.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/domi/mujoco_ws/build/mujoco_ros_sensors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/domi/mujoco_ws/src/mujoco_ros_sensors /home/domi/mujoco_ws/src/mujoco_ros_sensors/test /home/domi/mujoco_ws/build/mujoco_ros_sensors /home/domi/mujoco_ws/build/mujoco_ros_sensors/test /home/domi/mujoco_ws/build/mujoco_ros_sensors/test/CMakeFiles/run_tests_mujoco_ros_sensors.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests_mujoco_ros_sensors.dir/depend
 

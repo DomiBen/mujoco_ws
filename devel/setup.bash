@@ -1,1 +1,1 @@
-/home/dominik/mujoco_ws/devel/.private/catkin_tools_prebuild/setup.bash
+/home/domi/mujoco_ws/devel/.private/catkin_tools_prebuild/setup.bash
