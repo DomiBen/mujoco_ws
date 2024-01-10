@@ -1,8 +1,0 @@
-[  6%] Built target lodepng
-[ 26%] Built target platform_ui_adapter
-[ 33%] [32m[1mLinking CXX shared library /home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib/libmujoco_ros.so[0m
-[ 73%] Built target mujoco_ros
-[ 86%] [32m[1mLinking CXX shared library /home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib/libmujoco_testplugin.so[0m
-[ 86%] [32m[1mLinking CXX executable /home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib/mujoco_ros/mujoco_node[0m
-[ 93%] Built target mujoco_node
-[100%] Built target mujoco_testplugin

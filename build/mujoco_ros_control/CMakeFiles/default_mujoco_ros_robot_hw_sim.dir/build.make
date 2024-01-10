@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dominik/mujoco_ws/src/mujoco_ros_control
+CMAKE_SOURCE_DIR = /home/domi/mujoco_ws/src/mujoco_ros_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dominik/mujoco_ws/build/mujoco_ros_control
+CMAKE_BINARY_DIR = /home/domi/mujoco_ws/build/mujoco_ros_control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/progress.make
 include CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/flags.make
 
 CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o: CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/flags.make
-CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o: /home/dominik/mujoco_ws/src/mujoco_ros_control/src/default_robot_hw_sim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dominik/mujoco_ws/build/mujoco_ros_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o -c /home/dominik/mujoco_ws/src/mujoco_ros_control/src/default_robot_hw_sim.cpp
+CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o: /home/domi/mujoco_ws/src/mujoco_ros_control/src/default_robot_hw_sim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/domi/mujoco_ws/build/mujoco_ros_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o -c /home/domi/mujoco_ws/src/mujoco_ros_control/src/default_robot_hw_sim.cpp
 
 CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dominik/mujoco_ws/src/mujoco_ros_control/src/default_robot_hw_sim.cpp > CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/domi/mujoco_ws/src/mujoco_ros_control/src/default_robot_hw_sim.cpp > CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.i
 
 CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dominik/mujoco_ws/src/mujoco_ros_control/src/default_robot_hw_sim.cpp -o CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/domi/mujoco_ws/src/mujoco_ros_control/src/default_robot_hw_sim.cpp -o CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.s
 
 # Object files for target default_mujoco_ros_robot_hw_sim
 default_mujoco_ros_robot_hw_sim_OBJECTS = \
@@ -77,64 +77,64 @@ default_mujoco_ros_robot_hw_sim_OBJECTS = \
 # External object files for target default_mujoco_ros_robot_hw_sim
 default_mujoco_ros_robot_hw_sim_EXTERNAL_OBJECTS =
 
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/build.make
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcontroller_manager.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcontrol_toolbox.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librealtime_tools.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtransmission_interface_parser.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtransmission_interface_loader.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtransmission_interface_loader_plugins.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib/libmujoco_ros.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /home/dominik/.mujoco/mujoco-2.3.6/lib/libmujoco.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/liburdf.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/liborocos-kdl.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/liborocos-kdl.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libactionlib.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtf2.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libroslib.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librospack.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcamera_info_manager.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcamera_calibration_parsers.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libroscpp.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librosconsole.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librostime.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dominik/mujoco_ws/build/mujoco_ros_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so"
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/src/default_robot_hw_sim.cpp.o
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/build.make
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcontroller_manager.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcontrol_toolbox.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librealtime_tools.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtransmission_interface_parser.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtransmission_interface_loader.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtransmission_interface_loader_plugins.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /home/domi/mujoco_ws/devel/.private/mujoco_ros/lib/libmujoco_ros.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /home/domi/.mujoco/mujoco-2.3.6/lib/libmujoco.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/liburdf.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librosconsole_bridge.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/liborocos-kdl.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/liborocos-kdl.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libactionlib.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libtf2.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libimage_transport.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libroslib.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librospack.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcamera_info_manager.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcamera_calibration_parsers.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libroscpp.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librosconsole.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/librostime.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so: CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/domi/mujoco_ws/build/mujoco_ros_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/build: /home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so
+CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/build: /home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so
 
 .PHONY : CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/build
 
@@ -143,6 +143,6 @@ CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/clean:
 .PHONY : CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/clean
 
 CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/depend:
-	cd /home/dominik/mujoco_ws/build/mujoco_ros_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dominik/mujoco_ws/src/mujoco_ros_control /home/dominik/mujoco_ws/src/mujoco_ros_control /home/dominik/mujoco_ws/build/mujoco_ros_control /home/dominik/mujoco_ws/build/mujoco_ros_control /home/dominik/mujoco_ws/build/mujoco_ros_control/CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/domi/mujoco_ws/build/mujoco_ros_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/domi/mujoco_ws/src/mujoco_ros_control /home/domi/mujoco_ws/src/mujoco_ros_control /home/domi/mujoco_ws/build/mujoco_ros_control /home/domi/mujoco_ws/build/mujoco_ros_control /home/domi/mujoco_ws/build/mujoco_ros_control/CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/default_mujoco_ros_robot_hw_sim.dir/depend
 

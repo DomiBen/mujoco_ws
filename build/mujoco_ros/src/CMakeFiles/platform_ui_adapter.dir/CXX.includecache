@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjdata.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjdata.h
 stddef.h
 -
 stdint.h
@@ -16,17 +16,17 @@ mujoco/mjtnum.h
 mujoco/mjmodel.h
 -
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjexport.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjexport.h
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjmacro.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjmacro.h
 sanitizer/asan_interface.h
 -
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjmodel.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjmodel.h
 mujoco/mjtnum.h
 -
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjplugin.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjplugin.h
 mujoco/mjdata.h
 -
 mujoco/mjmodel.h
@@ -34,15 +34,15 @@ mujoco/mjmodel.h
 mujoco/mjvisualize.h
 -
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjrender.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjrender.h
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjtnum.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjtnum.h
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjui.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjui.h
 mujoco/mjrender.h
 -
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mjvisualize.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mjvisualize.h
 mujoco/mjdata.h
 -
 mujoco/mjmodel.h
@@ -50,7 +50,7 @@ mujoco/mjmodel.h
 mujoco/mjtnum.h
 -
 
-/home/dominik/.mujoco/mujoco-2.3.6/include/mujoco/mujoco.h
+/home/domi/.mujoco/mujoco-2.3.6/include/mujoco/mujoco.h
 mujoco/mjexport.h
 -
 stdlib.h
@@ -76,7 +76,7 @@ mujoco/mjui.h
 mujoco/mjvisualize.h
 -
 
-/home/dominik/mujoco_ws/src/mujoco_ros/include/mujoco_ros/glfw_adapter.h
+/home/domi/mujoco_ws/src/mujoco_ros/include/mujoco_ros/glfw_adapter.h
 utility
 -
 GLFW/glfw3.h
@@ -86,19 +86,19 @@ mujoco/mujoco.h
 mujoco_ros/platform_ui_adapter.h
 -
 
-/home/dominik/mujoco_ws/src/mujoco_ros/include/mujoco_ros/glfw_dispatch.h
+/home/domi/mujoco_ws/src/mujoco_ros/include/mujoco_ros/glfw_dispatch.h
 GLFW/glfw3.h
 -
 GLFW/glfw3native.h
 -
 
-/home/dominik/mujoco_ws/src/mujoco_ros/include/mujoco_ros/platform_ui_adapter.h
+/home/domi/mujoco_ws/src/mujoco_ros/include/mujoco_ros/platform_ui_adapter.h
 utility
 -
 mujoco/mujoco.h
 -
 
-/home/dominik/mujoco_ws/src/mujoco_ros/src/glfw_adapter.cc
+/home/domi/mujoco_ws/src/mujoco_ros/src/glfw_adapter.cc
 mujoco_ros/glfw_adapter.h
 -
 cstdlib
@@ -114,7 +114,7 @@ mujoco/mujoco.h
 mujoco_ros/glfw_dispatch.h
 -
 
-/home/dominik/mujoco_ws/src/mujoco_ros/src/glfw_dispatch.cc
+/home/domi/mujoco_ws/src/mujoco_ros/src/glfw_dispatch.cc
 mujoco_ros/glfw_dispatch.h
 -
 windows.h
@@ -128,7 +128,7 @@ cstdlib
 iostream
 -
 
-/home/dominik/mujoco_ws/src/mujoco_ros/src/platform_ui_adapter.cc
+/home/domi/mujoco_ws/src/mujoco_ros/src/platform_ui_adapter.cc
 mujoco_ros/platform_ui_adapter.h
 -
 chrono

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -mavx -Wall -Wextra -Wnon-virtual-dtor -Wold-st
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"mujoco_ros\" -Dmujoco_testplugin_EXPORTS
 
-CXX_INCLUDES = -I/home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros/include 
+CXX_INCLUDES = -I/home/domi/mujoco_ws/src/mujoco_ros/include -isystem /home/domi/.mujoco/mujoco-2.3.6/include -isystem /home/domi/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/domi/mujoco_ws/devel/.private/mujoco_ros/include 
 

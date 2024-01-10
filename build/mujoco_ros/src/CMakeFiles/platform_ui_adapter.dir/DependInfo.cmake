@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dominik/mujoco_ws/src/mujoco_ros/src/glfw_adapter.cc" "/home/dominik/mujoco_ws/build/mujoco_ros/src/CMakeFiles/platform_ui_adapter.dir/glfw_adapter.cc.o"
-  "/home/dominik/mujoco_ws/src/mujoco_ros/src/glfw_dispatch.cc" "/home/dominik/mujoco_ws/build/mujoco_ros/src/CMakeFiles/platform_ui_adapter.dir/glfw_dispatch.cc.o"
-  "/home/dominik/mujoco_ws/src/mujoco_ros/src/platform_ui_adapter.cc" "/home/dominik/mujoco_ws/build/mujoco_ros/src/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o"
+  "/home/domi/mujoco_ws/src/mujoco_ros/src/glfw_adapter.cc" "/home/domi/mujoco_ws/build/mujoco_ros/src/CMakeFiles/platform_ui_adapter.dir/glfw_adapter.cc.o"
+  "/home/domi/mujoco_ws/src/mujoco_ros/src/glfw_dispatch.cc" "/home/domi/mujoco_ws/build/mujoco_ros/src/CMakeFiles/platform_ui_adapter.dir/glfw_dispatch.cc.o"
+  "/home/domi/mujoco_ws/src/mujoco_ros/src/platform_ui_adapter.cc" "/home/domi/mujoco_ws/build/mujoco_ros/src/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/dominik/mujoco_ws/src/mujoco_ros/include"
-  "/home/dominik/.mujoco/mujoco-2.3.6/include"
+  "/home/domi/mujoco_ws/src/mujoco_ros/include"
+  "/home/domi/.mujoco/mujoco-2.3.6/include"
   )
 
 # Targets to which this target links.

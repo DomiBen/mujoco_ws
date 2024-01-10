@@ -1,4 +1,4 @@
-prefix=/home/dominik/mujoco_ws/devel/.private/mirobot_mujoco_ros
+prefix=/home/domi/mujoco_ws/devel/.private/mirobot_mujoco_ros
 
 Name: mirobot_mujoco_ros
 Description: Description of mirobot_mujoco_ros

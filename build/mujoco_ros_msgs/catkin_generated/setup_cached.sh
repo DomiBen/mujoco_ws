@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs:$CMAKE_PREFIX_PATH"
-export PWD='/home/dominik/mujoco_ws/build/mujoco_ros_msgs'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/dominik/mujoco_ws/src/mujoco_ros_msgs:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/domi/mujoco_ws/devel/.private/mujoco_ros_msgs:$CMAKE_PREFIX_PATH"
+export PWD='/home/domi/mujoco_ws/build/mujoco_ros_msgs'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/domi/mujoco_ws/devel/.private/mujoco_ros_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/domi/mujoco_ws/src/mujoco_ros_msgs:$ROS_PACKAGE_PATH"

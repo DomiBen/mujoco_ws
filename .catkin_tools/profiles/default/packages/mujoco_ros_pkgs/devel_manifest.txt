@@ -1,2 +1,2 @@
 mujoco_ros_pkgs
-/home/dominik/mujoco_ws/devel/.private/mujoco_ros_pkgs/cmake.lock /home/dominik/mujoco_ws/devel/./cmake.lock
+/home/domi/mujoco_ws/devel/.private/mujoco_ros_pkgs/cmake.lock /home/domi/mujoco_ws/devel/./cmake.lock

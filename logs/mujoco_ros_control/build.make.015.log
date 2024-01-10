@@ -1,4 +1,0 @@
-[ 25%] [32m[1mLinking CXX shared library /home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so[0m
-[ 50%] [32m[1mLinking CXX shared library /home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libmujoco_ros_control.so[0m
-[ 75%] Built target mujoco_ros_control
-[100%] Built target default_mujoco_ros_robot_hw_sim

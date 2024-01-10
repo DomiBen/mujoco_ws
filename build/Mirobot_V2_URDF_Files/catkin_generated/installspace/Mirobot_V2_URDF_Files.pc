@@ -1,8 +1,0 @@
-prefix=/home/dominik/mujoco_ws/install
-
-Name: Mirobot_V2_URDF_Files
-Description: Description of Mirobot_V2_URDF_Files
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

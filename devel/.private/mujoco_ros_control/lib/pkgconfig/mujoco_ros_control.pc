@@ -1,8 +1,8 @@
-prefix=/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control
+prefix=/home/domi/mujoco_ws/devel/.private/mujoco_ros_control
 
 Name: mujoco_ros_control
 Description: Description of mujoco_ros_control
 Version: 0.8.0
-Cflags: -I/home/dominik/mujoco_ws/src/mujoco_ros_control/include
+Cflags: -I/home/domi/mujoco_ws/src/mujoco_ros_control/include
 Libs: -L${prefix}/lib -lmujoco_ros_control -ldefault_mujoco_ros_robot_hw_sim
 Requires: roscpp pluginlib controller_manager controller_interface control_toolbox hardware_interface transmission_interface joint_limits_interface angles urdf mujoco_ros

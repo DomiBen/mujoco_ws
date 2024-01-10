@@ -1,6 +1,0 @@
-MuJoCo tar install found, but version can not be detected. If experiencing errors check that version 2.3.6 or a newer, compatible version is installed
-CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
-Please set them or make sure they are set and tested correctly in the CMake files:
-GLFW
-    linked by target "platform_ui_adapter" in directory /home/dominik/mujoco_ws/src/mujoco_ros/src
-

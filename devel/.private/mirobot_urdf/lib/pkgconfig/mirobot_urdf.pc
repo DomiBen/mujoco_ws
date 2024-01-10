@@ -1,4 +1,4 @@
-prefix=/home/dominik/mujoco_ws/devel/.private/mirobot_urdf
+prefix=/home/domi/mujoco_ws/devel/.private/mirobot_urdf
 
 Name: mirobot_urdf
 Description: Description of mirobot_urdf

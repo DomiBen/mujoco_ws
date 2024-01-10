@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/dominik/mujoco_ws/devel/.private/mirobot_mujoco_ros/setup.sh
+    local-name: /home/domi/mujoco_ws/devel/.private/mirobot_mujoco_ros/setup.sh

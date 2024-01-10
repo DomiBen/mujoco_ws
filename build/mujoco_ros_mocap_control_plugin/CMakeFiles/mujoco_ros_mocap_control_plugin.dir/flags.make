@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -std=gnu++17
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"mujoco_ros_mocap_control_plugin\" -Dmujoco_ros_mocap_control_plugin_EXPORTS
 
-CXX_INCLUDES = -I/home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include -isystem /home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /home/dominik/mujoco_ws/src/mujoco_ros/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /home/dominik/.mujoco/mujoco-2.3.6/include -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include -isystem /home/domi/mujoco_ws/devel/.private/mujoco_ros_msgs/include -isystem /home/domi/mujoco_ws/src/mujoco_ros/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /home/domi/.mujoco/mujoco-2.3.6/include -isystem /usr/include/eigen3 
 
