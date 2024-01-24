@@ -155,7 +155,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_ros_control.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_ros_control.so"
-         OLD_RPATH "/opt/ros/noetic/lib:/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib:/home/domi/.mujoco/mujoco-2.3.6/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_ros_control.so")
@@ -178,7 +178,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdefault_mujoco_ros_robot_hw_sim.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdefault_mujoco_ros_robot_hw_sim.so"
-         OLD_RPATH "/opt/ros/noetic/lib:/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib:/home/domi/.mujoco/mujoco-2.3.6/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdefault_mujoco_ros_robot_hw_sim.so")

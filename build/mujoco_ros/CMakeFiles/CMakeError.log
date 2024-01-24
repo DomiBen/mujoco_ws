@@ -1,21 +1,21 @@
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_83a43/fast && /usr/bin/make -f CMakeFiles/cmTC_83a43.dir/build.make CMakeFiles/cmTC_83a43.dir/build
+Run Build Command(s):/usr/bin/make cmTC_070bd/fast && /usr/bin/make -f CMakeFiles/cmTC_070bd.dir/build.make CMakeFiles/cmTC_070bd.dir/build
 make[1]: Entering directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_83a43.dir/src.cxx.o
-/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -std=c++17 -o CMakeFiles/cmTC_83a43.dir/src.cxx.o -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_83a43
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a43.dir/link.txt --verbose=1
-/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_83a43.dir/src.cxx.o  -o cmTC_83a43 
-/usr/bin/ld: CMakeFiles/cmTC_83a43.dir/src.cxx.o: in function `main':
+Building CXX object CMakeFiles/cmTC_070bd.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -std=c++17 -o CMakeFiles/cmTC_070bd.dir/src.cxx.o -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_070bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_070bd.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_070bd.dir/src.cxx.o  -o cmTC_070bd 
+/usr/bin/ld: CMakeFiles/cmTC_070bd.dir/src.cxx.o: in function `main':
 src.cxx:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.cxx:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_83a43.dir/build.make:87: cmTC_83a43] Error 1
+make[1]: *** [CMakeFiles/cmTC_070bd.dir/build.make:87: cmTC_070bd] Error 1
 make[1]: Leaving directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_83a43/fast] Error 2
+make: *** [Makefile:121: cmTC_070bd/fast] Error 2
 
 
 Source file was:
@@ -41,36 +41,36 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_61bbf/fast && /usr/bin/make -f CMakeFiles/cmTC_61bbf.dir/build.make CMakeFiles/cmTC_61bbf.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d3694/fast && /usr/bin/make -f CMakeFiles/cmTC_d3694.dir/build.make CMakeFiles/cmTC_d3694.dir/build
 make[1]: Entering directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_61bbf.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -std=c++17 -o CMakeFiles/cmTC_61bbf.dir/CheckFunctionExists.cxx.o -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_61bbf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61bbf.dir/link.txt --verbose=1
-/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_61bbf.dir/CheckFunctionExists.cxx.o  -o cmTC_61bbf  -lpthreads 
+Building CXX object CMakeFiles/cmTC_d3694.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -std=c++17 -o CMakeFiles/cmTC_d3694.dir/CheckFunctionExists.cxx.o -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_d3694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3694.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d3694.dir/CheckFunctionExists.cxx.o  -o cmTC_d3694  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_61bbf.dir/build.make:87: cmTC_61bbf] Error 1
+make[1]: *** [CMakeFiles/cmTC_d3694.dir/build.make:87: cmTC_d3694] Error 1
 make[1]: Leaving directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_61bbf/fast] Error 2
+make: *** [Makefile:121: cmTC_d3694/fast] Error 2
 
 
 
 Performing C SOURCE FILE Test SUPPORTS_LLD failed with the following output:
 Change Dir: /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2254e/fast && /usr/bin/make -f CMakeFiles/cmTC_2254e.dir/build.make CMakeFiles/cmTC_2254e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3cb82/fast && /usr/bin/make -f CMakeFiles/cmTC_3cb82.dir/build.make CMakeFiles/cmTC_3cb82.dir/build
 make[1]: Entering directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2254e.dir/src.c.o
-/usr/bin/cc   -DSUPPORTS_LLD -fuse-ld=lld -fPIE   -std=c11 -o CMakeFiles/cmTC_2254e.dir/src.c.o   -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_2254e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2254e.dir/link.txt --verbose=1
-/usr/bin/cc  -DSUPPORTS_LLD -fuse-ld=lld    CMakeFiles/cmTC_2254e.dir/src.c.o  -o cmTC_2254e 
+Building C object CMakeFiles/cmTC_3cb82.dir/src.c.o
+/usr/bin/cc   -DSUPPORTS_LLD -fuse-ld=lld -fPIE   -std=c11 -o CMakeFiles/cmTC_3cb82.dir/src.c.o   -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3cb82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cb82.dir/link.txt --verbose=1
+/usr/bin/cc  -DSUPPORTS_LLD -fuse-ld=lld    CMakeFiles/cmTC_3cb82.dir/src.c.o  -o cmTC_3cb82 
 collect2: fatal error: cannot find ‘ld’
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_2254e.dir/build.make:87: cmTC_2254e] Error 1
+make[1]: *** [CMakeFiles/cmTC_3cb82.dir/build.make:87: cmTC_3cb82] Error 1
 make[1]: Leaving directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_2254e/fast] Error 2
+make: *** [Makefile:121: cmTC_3cb82/fast] Error 2
 
 
 Source file was:
