@@ -1,1 +1,1 @@
-/home/domi/mujoco_ws/devel/.private/mirobot_mujoco_ros/lib/pkgconfig/mirobot_mujoco_ros.pc
+/home/dominik/mujoco_ws/devel/.private/mirobot_mujoco_ros/lib/pkgconfig/mirobot_mujoco_ros.pc

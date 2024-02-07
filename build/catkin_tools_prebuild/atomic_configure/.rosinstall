@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/domi/mujoco_ws/devel/.private/catkin_tools_prebuild/setup.sh
+    local-name: /home/dominik/mujoco_ws/devel/.private/catkin_tools_prebuild/setup.sh

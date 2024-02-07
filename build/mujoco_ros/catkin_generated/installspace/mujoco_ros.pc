@@ -1,8 +1,8 @@
-prefix=/home/domi/mujoco_ws/install
+prefix=/home/dominik/mujoco_ws/install
 
 Name: mujoco_ros
 Description: Description of mujoco_ros
 Version: 0.8.0
-Cflags: -I${prefix}/include -I/home/domi/.mujoco/mujoco-2.3.6/include
-Libs: -L${prefix}/lib -lmujoco_ros /home/domi/.mujoco/mujoco-2.3.6/lib/libmujoco.so
+Cflags: -I${prefix}/include -I/home/dominik/.mujoco/mujoco-2.3.6/include
+Libs: -L${prefix}/lib -lmujoco_ros /home/dominik/.mujoco/mujoco-2.3.6/lib/libmujoco.so
 Requires: roscpp pluginlib mujoco_ros_msgs urdf tf2 tf2_ros tf2_geometry_msgs image_transport camera_info_manager sensor_msgs

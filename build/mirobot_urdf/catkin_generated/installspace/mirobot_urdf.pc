@@ -1,4 +1,4 @@
-prefix=/home/domi/mujoco_ws/install
+prefix=/home/dominik/mujoco_ws/install
 
 Name: mirobot_urdf
 Description: Description of mirobot_urdf

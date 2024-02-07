@@ -1,4 +1,4 @@
 [35m[1mScanning dependencies of target mujoco_ros_mocap_control_plugin[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/mujoco_ros_mocap_control_plugin.dir/src/mocap_control_plugin.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/domi/mujoco_ws/devel/.private/mujoco_ros_mocap_control_plugin/lib/libmujoco_ros_mocap_control_plugin.so[0m
+[100%] [32m[1mLinking CXX shared library /home/dominik/mujoco_ws/devel/.private/mujoco_ros_mocap_control_plugin/lib/libmujoco_ros_mocap_control_plugin.so[0m
 [100%] Built target mujoco_ros_mocap_control_plugin

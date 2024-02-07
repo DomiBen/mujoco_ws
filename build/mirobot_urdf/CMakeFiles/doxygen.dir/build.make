@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/domi/mujoco_ws/src/mirobot_urdf
+CMAKE_SOURCE_DIR = /home/dominik/mujoco_ws/src/mirobot_urdf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/domi/mujoco_ws/build/mirobot_urdf
+CMAKE_BINARY_DIR = /home/dominik/mujoco_ws/build/mirobot_urdf
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/domi/mujoco_ws/build/mirobot_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/domi/mujoco_ws/src/mirobot_urdf /home/domi/mujoco_ws/src/mirobot_urdf /home/domi/mujoco_ws/build/mirobot_urdf /home/domi/mujoco_ws/build/mirobot_urdf /home/domi/mujoco_ws/build/mirobot_urdf/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dominik/mujoco_ws/build/mirobot_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dominik/mujoco_ws/src/mirobot_urdf /home/dominik/mujoco_ws/src/mirobot_urdf /home/dominik/mujoco_ws/build/mirobot_urdf /home/dominik/mujoco_ws/build/mirobot_urdf /home/dominik/mujoco_ws/build/mirobot_urdf/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

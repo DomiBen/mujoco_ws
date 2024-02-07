@@ -1,6 +1,6 @@
-devel_space: /home/domi/mujoco_ws/devel
+devel_space: /home/dominik/mujoco_ws/devel
 install: false
-install_space: /home/domi/mujoco_ws/install
+install_space: /home/dominik/mujoco_ws/install
 profile: default
-source_space: /home/domi/mujoco_ws/src
-workspace: /home/domi/mujoco_ws
+source_space: /home/dominik/mujoco_ws/src
+workspace: /home/dominik/mujoco_ws

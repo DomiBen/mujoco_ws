@@ -1,6 +1,6 @@
-Symlinking /home/domi/mujoco_ws/devel/share/mujoco_ros/cmake/mujoco_rosConfig-version.cmake
-Symlinking /home/domi/mujoco_ws/devel/share/mujoco_ros/cmake/mujoco_rosConfig.cmake
-Symlinking /home/domi/mujoco_ws/devel/lib/libmujoco_testplugin.so
-Symlinking /home/domi/mujoco_ws/devel/lib/libmujoco_ros.so
-Symlinking /home/domi/mujoco_ws/devel/lib/mujoco_ros/mujoco_node
-Symlinking /home/domi/mujoco_ws/devel/lib/pkgconfig/mujoco_ros.pc
+Symlinking /home/dominik/mujoco_ws/devel/lib/libmujoco_testplugin.so
+Symlinking /home/dominik/mujoco_ws/devel/lib/libmujoco_ros.so
+Symlinking /home/dominik/mujoco_ws/devel/lib/mujoco_ros/mujoco_node
+Symlinking /home/dominik/mujoco_ws/devel/lib/pkgconfig/mujoco_ros.pc
+Symlinking /home/dominik/mujoco_ws/devel/share/mujoco_ros/cmake/mujoco_rosConfig.cmake
+Symlinking /home/dominik/mujoco_ws/devel/share/mujoco_ros/cmake/mujoco_rosConfig-version.cmake

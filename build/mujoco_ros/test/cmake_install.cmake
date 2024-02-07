@@ -1,8 +1,8 @@
-# Install script for directory: /home/domi/mujoco_ws/src/mujoco_ros/test
+# Install script for directory: /home/dominik/mujoco_ws/src/mujoco_ros/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/domi/mujoco_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dominik/mujoco_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/domi/mujoco_ws/build/mujoco_ros/test/test_plugin/cmake_install.cmake")
+  include("/home/dominik/mujoco_ws/build/mujoco_ros/test/test_plugin/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros/test" TYPE FILE FILES "/home/domi/mujoco_ws/src/mujoco_ros/test/empty_world.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros/test" TYPE FILE FILES "/home/dominik/mujoco_ws/src/mujoco_ros/test/empty_world.xml")
 endif()
 

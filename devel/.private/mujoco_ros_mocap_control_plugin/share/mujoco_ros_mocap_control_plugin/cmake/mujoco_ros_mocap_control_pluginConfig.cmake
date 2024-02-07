@@ -67,14 +67,14 @@ set(mujoco_ros_mocap_control_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(mujoco_ros_mocap_control_plugin_SOURCE_PREFIX /home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master)
-  set(mujoco_ros_mocap_control_plugin_DEVEL_PREFIX /home/domi/mujoco_ws/devel/.private/mujoco_ros_mocap_control_plugin)
+  set(mujoco_ros_mocap_control_plugin_SOURCE_PREFIX /home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master)
+  set(mujoco_ros_mocap_control_plugin_DEVEL_PREFIX /home/dominik/mujoco_ws/devel/.private/mujoco_ros_mocap_control_plugin)
   set(mujoco_ros_mocap_control_plugin_INSTALL_PREFIX "")
   set(mujoco_ros_mocap_control_plugin_PREFIX ${mujoco_ros_mocap_control_plugin_DEVEL_PREFIX})
 else()
   set(mujoco_ros_mocap_control_plugin_SOURCE_PREFIX "")
   set(mujoco_ros_mocap_control_plugin_DEVEL_PREFIX "")
-  set(mujoco_ros_mocap_control_plugin_INSTALL_PREFIX /home/domi/mujoco_ws/install)
+  set(mujoco_ros_mocap_control_plugin_INSTALL_PREFIX /home/dominik/mujoco_ws/install)
   set(mujoco_ros_mocap_control_plugin_PREFIX ${mujoco_ros_mocap_control_plugin_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(mujoco_ros_mocap_control_plugin_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include " STREQUAL " ")
+if(NOT "/home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include " STREQUAL " ")
   set(mujoco_ros_mocap_control_plugin_INCLUDE_DIRS "")
-  set(_include_dirs "/home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include")
+  set(_include_dirs "/home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include 
         message(FATAL_ERROR "Project 'mujoco_ros_mocap_control_plugin' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'mujoco_ros_mocap_control_plugin' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'mujoco_ros_mocap_control_plugin' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/${idir}'.  ${_report}")
     endif()
     _list_append_unique(mujoco_ros_mocap_control_plugin_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/domi/mujoco_ws/devel/.private/mujoco_ros_mocap_control_plugin/lib;/home/domi/drl_ws/devel/lib;/home/domi/mujoco_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dominik/mujoco_ws/devel/.private/mujoco_ros_mocap_control_plugin/lib;/home/dominik/drl_ws/devel/lib;/home/dominik/mujoco_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

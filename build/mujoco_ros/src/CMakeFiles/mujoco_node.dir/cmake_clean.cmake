@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib/mujoco_ros/mujoco_node"
-  "/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib/mujoco_ros/mujoco_node.pdb"
+  "/home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib/mujoco_ros/mujoco_node"
+  "/home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib/mujoco_ros/mujoco_node.pdb"
   "CMakeFiles/mujoco_node.dir/main.cpp.o"
 )
 

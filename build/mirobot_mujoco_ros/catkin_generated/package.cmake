@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "mirobot_mujoco_ros")
-set(mirobot_mujoco_ros_VERSION "2.0.0")
+set(mirobot_mujoco_ros_VERSION "2.1.0")
 set(mirobot_mujoco_ros_MAINTAINER "Balázs András Bálint <balazs.andras.balint@ipa.fraunhofer.de>")
 set(mirobot_mujoco_ros_PACKAGE_FORMAT "2")
 set(mirobot_mujoco_ros_BUILD_DEPENDS )

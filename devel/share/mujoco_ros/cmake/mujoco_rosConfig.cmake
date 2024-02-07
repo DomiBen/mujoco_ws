@@ -1,1 +1,1 @@
-/home/domi/mujoco_ws/devel/.private/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake
+/home/dominik/mujoco_ws/devel/.private/mujoco_ros/share/mujoco_ros/cmake/mujoco_rosConfig.cmake

@@ -67,14 +67,14 @@ set(mujoco_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mujoco_ros_SOURCE_PREFIX /home/domi/mujoco_ws/src/mujoco_ros)
-  set(mujoco_ros_DEVEL_PREFIX /home/domi/mujoco_ws/devel/.private/mujoco_ros)
+  set(mujoco_ros_SOURCE_PREFIX /home/dominik/mujoco_ws/src/mujoco_ros)
+  set(mujoco_ros_DEVEL_PREFIX /home/dominik/mujoco_ws/devel/.private/mujoco_ros)
   set(mujoco_ros_INSTALL_PREFIX "")
   set(mujoco_ros_PREFIX ${mujoco_ros_DEVEL_PREFIX})
 else()
   set(mujoco_ros_SOURCE_PREFIX "")
   set(mujoco_ros_DEVEL_PREFIX "")
-  set(mujoco_ros_INSTALL_PREFIX /home/domi/mujoco_ws/install)
+  set(mujoco_ros_INSTALL_PREFIX /home/dominik/mujoco_ws/install)
   set(mujoco_ros_PREFIX ${mujoco_ros_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(mujoco_ros_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;/home/domi/.mujoco/mujoco-2.3.6/include " STREQUAL " ")
+if(NOT "include;/home/dominik/.mujoco/mujoco-2.3.6/include " STREQUAL " ")
   set(mujoco_ros_INCLUDE_DIRS "")
-  set(_include_dirs "include;/home/domi/.mujoco/mujoco-2.3.6/include")
+  set(_include_dirs "include;/home/dominik/.mujoco/mujoco-2.3.6/include")
   if(NOT "https://github.com/DavidPL1/mujoco_ros_pkgs/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/DavidPL1/mujoco_ros_pkgs/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -116,7 +116,7 @@ if(NOT "include;/home/domi/.mujoco/mujoco-2.3.6/include " STREQUAL " ")
   endforeach()
 endif()
 
-set(libraries "mujoco_ros;/home/domi/.mujoco/mujoco-2.3.6/lib/libmujoco.so")
+set(libraries "mujoco_ros;/home/dominik/.mujoco/mujoco-2.3.6/lib/libmujoco.so")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/domi/mujoco_ws/install/lib;/home/domi/drl_ws/devel/lib;/home/domi/mujoco_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dominik/mujoco_ws/install/lib;/home/dominik/drl_ws/devel/lib;/home/dominik/mujoco_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

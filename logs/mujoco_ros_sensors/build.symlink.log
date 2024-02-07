@@ -1,4 +1,4 @@
-Symlinking /home/domi/mujoco_ws/devel/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig-version.cmake
-Symlinking /home/domi/mujoco_ws/devel/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig.cmake
-Symlinking /home/domi/mujoco_ws/devel/lib/libmujoco_ros_sensors.so
-Symlinking /home/domi/mujoco_ws/devel/lib/pkgconfig/mujoco_ros_sensors.pc
+Symlinking /home/dominik/mujoco_ws/devel/lib/libmujoco_ros_sensors.so
+Symlinking /home/dominik/mujoco_ws/devel/lib/pkgconfig/mujoco_ros_sensors.pc
+Symlinking /home/dominik/mujoco_ws/devel/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig-version.cmake
+Symlinking /home/dominik/mujoco_ws/devel/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig.cmake
