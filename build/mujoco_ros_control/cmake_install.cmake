@@ -1,8 +1,8 @@
-# Install script for directory: /home/dominik/mujoco_ws/src/mujoco_ros_control
+# Install script for directory: /home/domi/mujoco_ws/src/mujoco_ros_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dominik/mujoco_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/domi/mujoco_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dominik/mujoco_ws/install/_setup_util.py")
+   "/home/domi/mujoco_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dominik/mujoco_ws/install" TYPE PROGRAM FILES "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/domi/mujoco_ws/install" TYPE PROGRAM FILES "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dominik/mujoco_ws/install/env.sh")
+   "/home/domi/mujoco_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dominik/mujoco_ws/install" TYPE PROGRAM FILES "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/domi/mujoco_ws/install" TYPE PROGRAM FILES "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dominik/mujoco_ws/install/setup.bash;/home/dominik/mujoco_ws/install/local_setup.bash")
+   "/home/domi/mujoco_ws/install/setup.bash;/home/domi/mujoco_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dominik/mujoco_ws/install" TYPE FILE FILES
-    "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/setup.bash"
-    "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/domi/mujoco_ws/install" TYPE FILE FILES
+    "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/setup.bash"
+    "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dominik/mujoco_ws/install/setup.sh;/home/dominik/mujoco_ws/install/local_setup.sh")
+   "/home/domi/mujoco_ws/install/setup.sh;/home/domi/mujoco_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dominik/mujoco_ws/install" TYPE FILE FILES
-    "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/setup.sh"
-    "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/domi/mujoco_ws/install" TYPE FILE FILES
+    "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/setup.sh"
+    "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dominik/mujoco_ws/install/setup.zsh;/home/dominik/mujoco_ws/install/local_setup.zsh")
+   "/home/domi/mujoco_ws/install/setup.zsh;/home/domi/mujoco_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dominik/mujoco_ws/install" TYPE FILE FILES
-    "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/setup.zsh"
-    "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/domi/mujoco_ws/install" TYPE FILE FILES
+    "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/setup.zsh"
+    "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dominik/mujoco_ws/install/.rosinstall")
+   "/home/domi/mujoco_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dominik/mujoco_ws/install" TYPE FILE FILES "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/domi/mujoco_ws/install" TYPE FILE FILES "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/mujoco_ros_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/mujoco_ros_control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros_control/cmake" TYPE FILE FILES
-    "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/mujoco_ros_controlConfig.cmake"
-    "/home/dominik/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/mujoco_ros_controlConfig-version.cmake"
+    "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/mujoco_ros_controlConfig.cmake"
+    "/home/domi/mujoco_ws/build/mujoco_ros_control/catkin_generated/installspace/mujoco_ros_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros_control" TYPE FILE FILES "/home/dominik/mujoco_ws/src/mujoco_ros_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros_control" TYPE FILE FILES "/home/domi/mujoco_ws/src/mujoco_ros_control/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,12 +150,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_ros_control.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libmujoco_ros_control.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libmujoco_ros_control.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_ros_control.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_ros_control.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_ros_control.so"
-         OLD_RPATH "/opt/ros/noetic/lib:/home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_ros_control.so")
@@ -173,12 +173,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdefault_mujoco_ros_robot_hw_sim.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dominik/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/domi/mujoco_ws/devel/.private/mujoco_ros_control/lib/libdefault_mujoco_ros_robot_hw_sim.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdefault_mujoco_ros_robot_hw_sim.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdefault_mujoco_ros_robot_hw_sim.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdefault_mujoco_ros_robot_hw_sim.so"
-         OLD_RPATH "/opt/ros/noetic/lib:/home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdefault_mujoco_ros_robot_hw_sim.so")
@@ -190,19 +190,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mujoco_ros_control" TYPE DIRECTORY FILES "/home/dominik/mujoco_ws/src/mujoco_ros_control/include/mujoco_ros_control/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mujoco_ros_control" TYPE DIRECTORY FILES "/home/domi/mujoco_ws/src/mujoco_ros_control/include/mujoco_ros_control/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros_control" TYPE FILE FILES
-    "/home/dominik/mujoco_ws/src/mujoco_ros_control/mujoco_ros_control_plugin.xml"
-    "/home/dominik/mujoco_ws/src/mujoco_ros_control/default_mujoco_ros_robot_hw_sim_plugin.xml"
+    "/home/domi/mujoco_ws/src/mujoco_ros_control/mujoco_ros_control_plugin.xml"
+    "/home/domi/mujoco_ws/src/mujoco_ros_control/default_mujoco_ros_robot_hw_sim_plugin.xml"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dominik/mujoco_ws/build/mujoco_ros_control/gtest/cmake_install.cmake")
+  include("/home/domi/mujoco_ws/build/mujoco_ros_control/gtest/cmake_install.cmake")
 
 endif()
 
@@ -214,5 +214,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dominik/mujoco_ws/build/mujoco_ros_control/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/domi/mujoco_ws/build/mujoco_ros_control/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

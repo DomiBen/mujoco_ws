@@ -1,8 +1,8 @@
-prefix=/home/dominik/mujoco_ws/devel/.private/mujoco_ros_mocap_control_plugin
+prefix=/home/domi/mujoco_ws/devel/.private/mujoco_ros_mocap_control_plugin
 
 Name: mujoco_ros_mocap_control_plugin
 Description: Description of mujoco_ros_mocap_control_plugin
 Version: 2.0.0
-Cflags: -I/home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include
+Cflags: -I/home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master/include
 Libs: -L${prefix}/lib -lmujoco_ros_mocap_control_plugin
 Requires: roscpp mujoco_ros

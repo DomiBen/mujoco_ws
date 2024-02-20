@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dominik/mujoco_ws/src/mujoco_ros_sensors
+CMAKE_SOURCE_DIR = /home/domi/mujoco_ws/src/mujoco_ros_sensors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dominik/mujoco_ws/build/mujoco_ros_sensors
+CMAKE_BINARY_DIR = /home/domi/mujoco_ws/build/mujoco_ros_sensors
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dominik/mujoco_ws/build/mujoco_ros_sensors/CMakeFiles /home/dominik/mujoco_ws/build/mujoco_ros_sensors/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/domi/mujoco_ws/build/mujoco_ros_sensors/CMakeFiles /home/domi/mujoco_ws/build/mujoco_ros_sensors/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dominik/mujoco_ws/build/mujoco_ros_sensors/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/domi/mujoco_ws/build/mujoco_ros_sensors/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

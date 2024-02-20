@@ -1,4 +1,4 @@
-Linked: (/home/dominik/mujoco_ws/devel/.private/mujoco_ros_sensors/lib/libmujoco_ros_sensors.so, /home/dominik/mujoco_ws/devel/lib/libmujoco_ros_sensors.so)
-Linked: (/home/dominik/mujoco_ws/devel/.private/mujoco_ros_sensors/lib/pkgconfig/mujoco_ros_sensors.pc, /home/dominik/mujoco_ws/devel/lib/pkgconfig/mujoco_ros_sensors.pc)
-Linked: (/home/dominik/mujoco_ws/devel/.private/mujoco_ros_sensors/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig-version.cmake, /home/dominik/mujoco_ws/devel/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig-version.cmake)
-Linked: (/home/dominik/mujoco_ws/devel/.private/mujoco_ros_sensors/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig.cmake, /home/dominik/mujoco_ws/devel/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig.cmake)
+Symlinking /home/domi/mujoco_ws/devel/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig-version.cmake
+Symlinking /home/domi/mujoco_ws/devel/share/mujoco_ros_sensors/cmake/mujoco_ros_sensorsConfig.cmake
+Symlinking /home/domi/mujoco_ws/devel/lib/libmujoco_ros_sensors.so
+Symlinking /home/domi/mujoco_ws/devel/lib/pkgconfig/mujoco_ros_sensors.pc
