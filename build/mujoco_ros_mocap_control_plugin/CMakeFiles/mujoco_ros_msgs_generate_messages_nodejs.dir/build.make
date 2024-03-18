@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master
+CMAKE_SOURCE_DIR = /home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/domi/mujoco_ws/build/mujoco_ros_mocap_control_plugin
+CMAKE_BINARY_DIR = /home/dominik/mujoco_ws/build/mujoco_ros_mocap_control_plugin
 
 # Utility rule file for mujoco_ros_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/domi/mujoco_ws/build/mujoco_ros_mocap_control_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master /home/domi/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master /home/domi/mujoco_ws/build/mujoco_ros_mocap_control_plugin /home/domi/mujoco_ws/build/mujoco_ros_mocap_control_plugin /home/domi/mujoco_ws/build/mujoco_ros_mocap_control_plugin/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dominik/mujoco_ws/build/mujoco_ros_mocap_control_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master /home/dominik/mujoco_ws/src/mujoco_ros_mocap_control_plugin-master /home/dominik/mujoco_ws/build/mujoco_ros_mocap_control_plugin /home/dominik/mujoco_ws/build/mujoco_ros_mocap_control_plugin /home/dominik/mujoco_ws/build/mujoco_ros_mocap_control_plugin/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/depend
 

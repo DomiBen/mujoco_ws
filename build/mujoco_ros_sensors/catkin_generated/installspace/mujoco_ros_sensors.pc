@@ -1,4 +1,4 @@
-prefix=/home/domi/mujoco_ws/install
+prefix=/home/dominik/mujoco_ws/install
 
 Name: mujoco_ros_sensors
 Description: Description of mujoco_ros_sensors

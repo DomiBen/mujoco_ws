@@ -1,5 +1,5 @@
-Symlinking /home/domi/mujoco_ws/devel/share/mujoco_ros_control/cmake/mujoco_ros_controlConfig.cmake
-Symlinking /home/domi/mujoco_ws/devel/share/mujoco_ros_control/cmake/mujoco_ros_controlConfig-version.cmake
-Symlinking /home/domi/mujoco_ws/devel/lib/libdefault_mujoco_ros_robot_hw_sim.so
-Symlinking /home/domi/mujoco_ws/devel/lib/libmujoco_ros_control.so
-Symlinking /home/domi/mujoco_ws/devel/lib/pkgconfig/mujoco_ros_control.pc
+Symlinking /home/dominik/mujoco_ws/devel/lib/libmujoco_ros_control.so
+Symlinking /home/dominik/mujoco_ws/devel/lib/libdefault_mujoco_ros_robot_hw_sim.so
+Symlinking /home/dominik/mujoco_ws/devel/lib/pkgconfig/mujoco_ros_control.pc
+Symlinking /home/dominik/mujoco_ws/devel/share/mujoco_ros_control/cmake/mujoco_ros_controlConfig-version.cmake
+Symlinking /home/dominik/mujoco_ws/devel/share/mujoco_ros_control/cmake/mujoco_ros_controlConfig.cmake

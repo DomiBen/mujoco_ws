@@ -1,8 +1,8 @@
-# Install script for directory: /home/domi/mujoco_ws/src/mujoco_ros_sensors/test
+# Install script for directory: /home/dominik/mujoco_ws/src/mujoco_ros_sensors/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/domi/mujoco_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dominik/mujoco_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

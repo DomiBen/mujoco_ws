@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/domi/mujoco_ws/src/mujoco_ros_control
+CMAKE_SOURCE_DIR = /home/dominik/mujoco_ws/src/mujoco_ros_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/domi/mujoco_ws/build/mujoco_ros_control
+CMAKE_BINARY_DIR = /home/dominik/mujoco_ws/build/mujoco_ros_control
 
 # Utility rule file for trajectory_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/depend:
-	cd /home/domi/mujoco_ws/build/mujoco_ros_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/domi/mujoco_ws/src/mujoco_ros_control /home/domi/mujoco_ws/src/mujoco_ros_control /home/domi/mujoco_ws/build/mujoco_ros_control /home/domi/mujoco_ws/build/mujoco_ros_control /home/domi/mujoco_ws/build/mujoco_ros_control/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dominik/mujoco_ws/build/mujoco_ros_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dominik/mujoco_ws/src/mujoco_ros_control /home/dominik/mujoco_ws/src/mujoco_ros_control /home/dominik/mujoco_ws/build/mujoco_ros_control /home/dominik/mujoco_ws/build/mujoco_ros_control /home/dominik/mujoco_ws/build/mujoco_ros_control/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/depend
 

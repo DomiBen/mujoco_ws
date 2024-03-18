@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/domi/mujoco_ws/src/mujoco_ros_pkgs
+CMAKE_SOURCE_DIR = /home/dominik/mujoco_ws/src/mujoco_ros_pkgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/domi/mujoco_ws/build/mujoco_ros_pkgs
+CMAKE_BINARY_DIR = /home/dominik/mujoco_ws/build/mujoco_ros_pkgs
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/domi/mujoco_ws/build/mujoco_ros_pkgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/domi/mujoco_ws/src/mujoco_ros_pkgs /home/domi/mujoco_ws/src/mujoco_ros_pkgs /home/domi/mujoco_ws/build/mujoco_ros_pkgs /home/domi/mujoco_ws/build/mujoco_ros_pkgs /home/domi/mujoco_ws/build/mujoco_ros_pkgs/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dominik/mujoco_ws/build/mujoco_ros_pkgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dominik/mujoco_ws/src/mujoco_ros_pkgs /home/dominik/mujoco_ws/src/mujoco_ros_pkgs /home/dominik/mujoco_ws/build/mujoco_ros_pkgs /home/dominik/mujoco_ws/build/mujoco_ros_pkgs /home/dominik/mujoco_ws/build/mujoco_ros_pkgs/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

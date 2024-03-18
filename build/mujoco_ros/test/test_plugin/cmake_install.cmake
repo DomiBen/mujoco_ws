@@ -1,8 +1,8 @@
-# Install script for directory: /home/domi/mujoco_ws/src/mujoco_ros/test/test_plugin
+# Install script for directory: /home/dominik/mujoco_ws/src/mujoco_ros/test/test_plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/domi/mujoco_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dominik/mujoco_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_testplugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib/libmujoco_testplugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib/libmujoco_testplugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_testplugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_testplugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_testplugin.so"
-         OLD_RPATH "/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmujoco_testplugin.so")
@@ -61,6 +61,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros/test/test_plugin" TYPE FILE FILES "/home/domi/mujoco_ws/src/mujoco_ros/test/test_plugin/test_plugin.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mujoco_ros/test/test_plugin" TYPE FILE FILES "/home/dominik/mujoco_ws/src/mujoco_ros/test/test_plugin/test_plugin.xml")
 endif()
 

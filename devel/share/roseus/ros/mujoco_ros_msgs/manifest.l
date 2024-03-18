@@ -1,1 +1,1 @@
-/home/domi/mujoco_ws/devel/.private/mujoco_ros_msgs/share/roseus/ros/mujoco_ros_msgs/manifest.l
+/home/dominik/mujoco_ws/devel/.private/mujoco_ros_msgs/share/roseus/ros/mujoco_ros_msgs/manifest.l

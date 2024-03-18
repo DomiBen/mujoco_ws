@@ -1,1 +1,1 @@
-/home/domi/mujoco_ws/devel/.private/mujoco_ros/lib/pkgconfig/mujoco_ros.pc
+/home/dominik/mujoco_ws/devel/.private/mujoco_ros/lib/pkgconfig/mujoco_ros.pc

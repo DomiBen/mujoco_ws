@@ -1,21 +1,21 @@
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4cc3d/fast && /usr/bin/make -f CMakeFiles/cmTC_4cc3d.dir/build.make CMakeFiles/cmTC_4cc3d.dir/build
-make[1]: Entering directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4cc3d.dir/src.cxx.o
-/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -std=c++17 -o CMakeFiles/cmTC_4cc3d.dir/src.cxx.o -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_4cc3d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cc3d.dir/link.txt --verbose=1
-/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_4cc3d.dir/src.cxx.o  -o cmTC_4cc3d 
-/usr/bin/ld: CMakeFiles/cmTC_4cc3d.dir/src.cxx.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_00c0c/fast && /usr/bin/make -f CMakeFiles/cmTC_00c0c.dir/build.make CMakeFiles/cmTC_00c0c.dir/build
+make[1]: Verzeichnis „/home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_00c0c.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -std=c++17 -o CMakeFiles/cmTC_00c0c.dir/src.cxx.o -c /home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_00c0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00c0c.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_00c0c.dir/src.cxx.o  -o cmTC_00c0c 
+/usr/bin/ld: CMakeFiles/cmTC_00c0c.dir/src.cxx.o: in function `main':
 src.cxx:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.cxx:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_4cc3d.dir/build.make:87: cmTC_4cc3d] Error 1
-make[1]: Leaving directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_4cc3d/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_00c0c.dir/build.make:87: cmTC_00c0c] Fehler 1
+make[1]: Verzeichnis „/home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:121: cmTC_00c0c/fast] Fehler 2
 
 
 Source file was:
@@ -39,38 +39,38 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b72cd/fast && /usr/bin/make -f CMakeFiles/cmTC_b72cd.dir/build.make CMakeFiles/cmTC_b72cd.dir/build
-make[1]: Entering directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b72cd.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -std=c++17 -o CMakeFiles/cmTC_b72cd.dir/CheckFunctionExists.cxx.o -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_b72cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b72cd.dir/link.txt --verbose=1
-/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b72cd.dir/CheckFunctionExists.cxx.o  -o cmTC_b72cd  -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
+Run Build Command(s):/usr/bin/make cmTC_915b9/fast && /usr/bin/make -f CMakeFiles/cmTC_915b9.dir/build.make CMakeFiles/cmTC_915b9.dir/build
+make[1]: Verzeichnis „/home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_915b9.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -std=c++17 -o CMakeFiles/cmTC_915b9.dir/CheckFunctionExists.cxx.o -c /home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_915b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_915b9.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_915b9.dir/CheckFunctionExists.cxx.o  -o cmTC_915b9  -lpthreads 
+/usr/bin/ld: -lpthreads kann nicht gefunden werden
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_b72cd.dir/build.make:87: cmTC_b72cd] Error 1
-make[1]: Leaving directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_b72cd/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_915b9.dir/build.make:87: cmTC_915b9] Fehler 1
+make[1]: Verzeichnis „/home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:121: cmTC_915b9/fast] Fehler 2
 
 
 
 Performing C SOURCE FILE Test SUPPORTS_LLD failed with the following output:
-Change Dir: /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f5cc4/fast && /usr/bin/make -f CMakeFiles/cmTC_f5cc4.dir/build.make CMakeFiles/cmTC_f5cc4.dir/build
-make[1]: Entering directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f5cc4.dir/src.c.o
-/usr/bin/cc   -DSUPPORTS_LLD -fuse-ld=lld -fPIE   -std=c11 -o CMakeFiles/cmTC_f5cc4.dir/src.c.o   -c /home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_f5cc4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5cc4.dir/link.txt --verbose=1
-/usr/bin/cc  -DSUPPORTS_LLD -fuse-ld=lld    CMakeFiles/cmTC_f5cc4.dir/src.c.o  -o cmTC_f5cc4 
+Run Build Command(s):/usr/bin/make cmTC_1b2fd/fast && /usr/bin/make -f CMakeFiles/cmTC_1b2fd.dir/build.make CMakeFiles/cmTC_1b2fd.dir/build
+make[1]: Verzeichnis „/home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_1b2fd.dir/src.c.o
+/usr/bin/cc   -DSUPPORTS_LLD -fuse-ld=lld -fPIE   -std=c11 -o CMakeFiles/cmTC_1b2fd.dir/src.c.o   -c /home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1b2fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b2fd.dir/link.txt --verbose=1
+/usr/bin/cc  -DSUPPORTS_LLD -fuse-ld=lld    CMakeFiles/cmTC_1b2fd.dir/src.c.o  -o cmTC_1b2fd 
 collect2: fatal error: cannot find ‘ld’
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_f5cc4.dir/build.make:87: cmTC_f5cc4] Error 1
-make[1]: Leaving directory '/home/domi/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_f5cc4/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_1b2fd.dir/build.make:87: cmTC_1b2fd] Fehler 1
+make[1]: Verzeichnis „/home/dominik/mujoco_ws/build/mujoco_ros/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:121: cmTC_1b2fd/fast] Fehler 2
 
 
 Source file was:
